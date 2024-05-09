@@ -45,3 +45,6 @@ const employee = {
 const { id, age } = employee;
 const { name, role } = employee.department;
 const { email } = employee?.department?.manager;
+
+
+console.log(id, age, name, role, employee, email);
